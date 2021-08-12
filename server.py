@@ -7,7 +7,7 @@ import struct as srt
 socket_name = sct.socket(socket.AF_INET,socket.SOCK_STREAM)
 setsockopt(socket_name, SOL_SOCKET, SO_REUSEADDR)
 
-port = 3333
+port = 4444
 address = ('0000.0000.00.0000',port)
 
 socket_name.bind(address)
